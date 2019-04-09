@@ -21,15 +21,15 @@ FCFS is a first come first serve
    _____________________________________
   | Process | Arrival Time| Burst Time	|			
   |	    |		  |	        |
-  |   P1    |	0.0	  |	8       |	
-  |   p2    |	0.4	  |	4       |
-  |   p3    |	1.0	  |	1       |
+  |   P0   |	0.0	  |	8       |	
+  |   p1    |	0.4	  |	4       |
+  |   p2    |	1.0	  |	1       |
   |_________|_____________|_____________|      		
 
 
 
     Process:   _________________________
-              |__p1___|__p2____|__p3____|
+              |__p0___|__p1____|__p2____|
        Time:  0       8	       12       13
 
 
@@ -39,11 +39,11 @@ Turnaround Time=competion time -Arrival time
   Now we finding the turnaround time for p1,p2 and p3.
    so,
 
-  p1= 8 -   0.0 = 8
+  p0= 8 -   0.0 = 8
 
-  p2= 12 -  0.4 = 11.6
+  p1= 12 -  0.4 = 11.6
 
-  p3= 13 -  1.0 = 12
+  p2= 13 -  1.0 = 12
                   
  now,Average Turnaround time=total/no.of process
                               31.6/3=10.53
@@ -58,9 +58,9 @@ Shortest job first
   _____________________________________
   | Process | Arrival Time| Burst Time	|			
   |	    |		  |	        |
-  |   P1    |	0.0	  |	8       |	
-  |   p2    |	0.4	  |	4       |
-  |   p3    |	1.0	  |	1       |
+  |   P0   |	0.0	  |	8       |	
+  |   p1    |	0.4	  |	4       |
+  |   p2    |	1.0	  |	1       |
   |_________|_____________|_____________| 
 
 
@@ -68,7 +68,7 @@ Shortest job first
  
 
     Process:   _________________________
-              |__p1___|__p3____|__p2____|
+              |__p0___|__p1____|__p3____|
        Time:  0       8	       9        13
 
 
@@ -80,11 +80,11 @@ Now find the turnaround time=?
   Now we finding the turnaround time for p1,p2 and p3.
    so,
 
-  p1= 8 -   0.0 = 8
+  p0= 8 -   0.0 = 8
 
-  p2= 13 -  0.4 = 12.6
+  p1= 13 -  0.4 = 12.6
 
-  p3= 9 -  1.0 = 8
+  p2= 9 -  1.0 = 8
                   
  now,Average Turnaround time=total/no.of process
                               28.6/3=9.53
@@ -98,9 +98,9 @@ c.
    _____________________________________
   | Process | Arrival Time| Burst Time	|			
   |	    |		  |	        |
-  |   P1    |	0.0	  |	8       |	
-  |   p2    |	0.4	  |	4       |
-  |   p3    |	1.0	  |	1       |
+  |   P0    |	0.0	  |	8       |	
+  |   p1    |	0.4	  |	4       |
+  |   p2    |	1.0	  |	1       |
   |_________|_____________|_____________| 
 
 
@@ -108,7 +108,7 @@ c.
  
 
     Process:   ________________________________
-              |__X___|__p3____|__p2____|__p1___|
+              |__X___|__p2____|__p1____|__p0___|
        Time:  0      1	      2        6      14
 
 
@@ -121,11 +121,11 @@ Now find the turnaround time=?
   Now we finding the turnaround time for p1,p2 and p3.
    so,
 
-  p1= 14 -   0.0 = 14
+  p0= 14 -   0.0 = 14
 
-  p2= 6 -  0.4 = 5.6
+  p1= 6 -  0.4 = 5.6
 
-  p3= 2 -  1.0 = 1
+  p2= 2 -  1.0 = 1
                   
  now,Average Turnaround time=total/no.of process
                               20.6/3=6.68	
