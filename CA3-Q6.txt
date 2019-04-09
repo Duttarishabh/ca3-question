@@ -14,7 +14,7 @@ Solution-
 
 a. FCFS Gantt chart 
 
-FCFS is a first come first serve
+FCFS is a first come first serve!
 
 
 
