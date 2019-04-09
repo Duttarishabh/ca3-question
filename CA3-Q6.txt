@@ -52,7 +52,7 @@ Turnaround Time=competion time -Arrival time
 
 b.SJF
  
-Shortest job first   
+Shortest job first(SJF)
    
 
   _____________________________________
